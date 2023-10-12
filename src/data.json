@@ -1,0 +1,39 @@
+[
+    {
+      "id": "1",
+      "date_time": "12 Sep",
+      "location":"Rajkot",
+      "title": "Dance Competition",
+      "Imgname": "concert_1",
+      "description": "Showcase your dancing skills and compete with the best dancers in town.",
+      "price": "120"
+    },
+    {
+      "id": "2",
+      "date_time": "15 Oct",
+      "location":"Mehsana",
+      "title": "Art Exhibition",
+      "Imgname": "8598632",
+      "description": "Explore a stunning collection of artworks from local",
+      "price": "Free Entry"
+    },
+    {
+      "id": "3",
+      "date_time": "20 Nov",
+      "location":"Mumbai",
+      "title": "Sports Tournament",
+      "Imgname": "32614",
+      "description": "Join the thrilling sports competition and prove your athletic prowess.",
+      "price": "120"
+    },
+    {
+      "id": "4",
+      "date_time": "21 DEC",
+      "location":"Pune",
+      "title": "Judo Tournament",
+      "Imgname": "sport_1",
+      "description": "Join the thrilling sports competition and prove your athletic prowess.",
+      "price": "150"
+    }
+  ]
+  

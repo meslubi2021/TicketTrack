@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Home.css */
+.custom-max-height {
+    max-height: calc(1.2em * 4); /* Adjust line height and number of lines */
   }
+  /* In your CSS file */
+
+/* Apply styles to the whole body */
+body {
+  background-color: rgba(225, 211, 211, 0.347);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Custom class for the container */
+.container {
+  margin-top: 2rem; /* Add margin to top */
+}
+
+/* Style for the cards */
+.card {
+  width: 18rem;
+  border: none; /* Remove the border that was added */
+}
+
+/* Style for the card image */
+.card-img-top {
+  border-top-left-radius: 18.95px;
+  border-top-right-radius: 18.95px;
+  width: 100%;
+  height: 197.11px; /* Set height to maintain aspect ratio */
+  object-fit: cover; /* Ensure image covers the entire space */
+}
+
+/* Style for the date box */
+
+
+/* Apply styles to the button */
+.btn-primary {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+.search{
+  background-color: white;
+  
+}
+.ph::placeholder {
+  color: var(--placeholder-color);
+}
+/* Drop down */
+
+
+/* end */
+
+/* Apply styles to the card body */
+.card-body {
+  background-color: white;
+  color: black;
+}
+
+/* Apply shadow to the cards */
+.shadow-lg {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust shadow properties */
+}
+
+.date-box {
+  width: 50px;
+  height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #17a2b8;
+  border-radius: 0.25rem;
+  margin-right: 10px;
+}
+/* Myticket.css */
+/* Myticket.css */
+.custom-horizontal-card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 500px; /* Decreased width */
+  height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+/* Rest of your existing CSS styles */
+
+
+.custom-horizontal-card-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-horizontal-card-img {
+  width: 130px;
+  height: 130px;
+  margin-right: 10px;
 }
+
+.custom-horizontal-card-details {
+  flex-grow: 1;
+}
+
+.custom-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-card-text {
+  margin-bottom: 5px;
+}
+
+.custom-card-location-time {
+ 
+  flex-direction: row;
+  align-items: center;
+}
+
+.custom-card-location-time p {
+  margin-right: 10px;
+}
+
+
+
+/* Ticket end */
